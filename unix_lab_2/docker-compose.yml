@@ -1,0 +1,8 @@
+services:
+  worker:
+    build: .
+    volumes:
+      - shared_data:/data
+
+volumes:
+  shared_data:
